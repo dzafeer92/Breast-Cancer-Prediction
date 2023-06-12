@@ -18,7 +18,7 @@ with open(MODEL_PATH,'rb') as file:
 
 #%% STREAMLIT
 with st.form("Patient's Form"):
-    st.title("Early Breast Cancer Type Prediction by Group 1")
+    st.title("Early Breast Cancer Type Prediction by Group 4")
     st.video("https://youtube.com/watch?v=FTH56ifHt28&si=EnSIkaIECMiOmarE", format="video/mp4") 
     # credit video: "Common Types of Breast Cancer" By Mayo Clinic YouTube channel
     st.header("Let's check whether your breast mass is benign or malignant!")
