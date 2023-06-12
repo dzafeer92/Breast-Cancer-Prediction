@@ -18,10 +18,10 @@ with open(MODEL_PATH,'rb') as file:
 
 #%% STREAMLIT
 with st.form("Patient's Form"):
-    st.title("Type of Breast Cancer Prediction")
-    st.video("https://www.youtube.com/watch?v=X5tuIxrLj5s", format="video/mp4") 
+    st.title("Early Breast Cancer Type Prediction by Group 1")
+    st.video("https://youtube.com/watch?v=FTH56ifHt28&si=EnSIkaIECMiOmarE", format="video/mp4") 
     # credit video: "Common Types of Breast Cancer" By Mayo Clinic YouTube channel
-    st.header("Let's check the type of your breast cancer!")
+    st.header("Let's check whether your breast mass is benign or malignant!")
     radius_mean = int(st.number_input("Key in your radius of lobes: "))
     texture_mean = int(st.number_input("Key in your mean of surface texture: "))
     perimeter_mean = int(st.number_input("Key in your outer perimeter of lobes: "))
